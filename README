@@ -22,8 +22,6 @@ The volumes here are specially adapted for use with the MNI Linear
 Registration Package (mni_autoreg).  Included in this package are the
 following files:
 
-     Makefile
-	makefile to do everything for you (see instructions below)
      colin27_t1_tal_lin.mnc 
 	a version of the average of 27 scans described above. This
         volume covers the whole brain (unlike the original Talairach
@@ -33,27 +31,3 @@ following files:
         manually.
      colin27_t1_tal_lin_headmask.mnc 
 	a rough mask of the whole head, required for nonlinear mode
-
-Here's a brief summary of what you need to do:
-
-1) Build and install the entire MNI AutoReg package, as described in
-   the README with that package.  (Note that this may entail building
-   netCDF, MINC, and Perl 5 in addition to the programs included with
-   the MNI AutoReg package.)  You *can* perform the "make check" step
-   before building and installing the stereotaxic model, but you won't
-   be able to do any real registrations with mritotal until the model
-   is installed.
-2) Install the model:
-     * edit Makefile; make sure that prefix used here is the same as the
-       prefix used to install MNI AutoReg
-     * type "make install"
-
-Now, you're ready to try out mritotal on real data.  See the file
-TESTING included with MNI AutoReg for instructions on doing this.
-
-Any problems with this package should be reported to 
-Andrew Janke <rotor@bic.mni.mcgill.ca or
-Steve Robbins <stever@bic.mni.mcgill.ca> or
-Louis Collins <louis@bic.mni.mcgill.ca>.
-
-
