@@ -1,11 +1,10 @@
 %product mni-models_colin27-lin
 %copyright 2000-2004 Louis Collins
 %vendor McConnell Brain Imaging Centre
-%packager Andrew Janke <rotor@bic.mni.mcgill.ca>
+%packager Andrew Janke <a.janke@gmail.com>
 %license COPYING
 %readme README
 %description mni-models linear colin27 T1
 %version @VERSION@
-%requires netcdf
 %requires minc
 %requires mni-autoreg
