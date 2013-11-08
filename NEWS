@@ -1,3 +1,10 @@
+New in Release 1.2
+
+* provided a tighter brain mask (volume and surface)
+* added tag points (transformed from ICBM 152)
+* added mask for ventricles
+* converted models to minc2
+* added Cerebellum_Ventricles_SubCortical_Mask-colin.mnc for CIVET
 
 New in Release 1.1
 

@@ -1,0 +1,11 @@
+MNI Transform File
+%Thu Nov  7 19:04:49 2013>>> minctracc -clobber -nonlinear corrcoeff -stiffness 0.962962 -iterations 10 -step 2 2 2 -similarity 0.2 -weight 0.75 -sub_lattice 6 -lattice_diam 6 6 6 -transformation /tmp/best1stepnlreg.pl-kH0PSMf4/Scolin27_t1_tal_lin_5.xfm -source_mask colin27_t1_tal_lin_mask.mnc -model_mask /home/claude/CIVET/Linux-x86_64/dev/share/mni-models/mni_icbm152_t1_tal_nlin_sym_09a_mask.mnc /tmp/best1stepnlreg.pl-kH0PSMf4/Scolin27_t1_tal_lin_2_blur.mnc /tmp/best1stepnlreg.pl-kH0PSMf4/Tmni_icbm152_t1_tal_nlin_sym_09a_2_blur.mnc colin_to_icbm152_2009a.xfm
+%(Package mni_autoreg 0.99.6, compiled by @localhost.localdomain (x86_64-unknown-linux-gnu) on Thu Oct 25 16:50:30 EDT 2012)
+
+Transform_Type = Linear;
+Linear_Transform =
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0;
+Transform_Type = Grid_Transform;
+Displacement_Volume = colin_to_icbm152_2009a_grid_0.mnc;

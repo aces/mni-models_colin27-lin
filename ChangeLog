@@ -1,7 +1,14 @@
+2013-11-08  Andrew L Janke  <a.janke@gmail.com>
+
+    * provided a tighter brain mask (volume and surface)
+    * added tag points (transformed from ICBM 152)
+    * added mask for ventricles
+    * converted models to minc2
+    * added Cerebellum_Ventricles_SubCortical_Mask-colin.mnc for CIVET
 
 2009-03-28  Andrew L Janke  <a.janke@gmail.com>
 
- * Makefile.am: changed install dir from mni_autoreg to mni-models
+    * Makefile.am: changed install dir from mni_autoreg to mni-models
 
 2004-11-23  Andrew Janke  <rotor@bic.mni.mcgill.ca>
 
