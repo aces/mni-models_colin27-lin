@@ -1,4 +1,8 @@
-2013-11-08  Andrew L Janke  <a.janke@gmail.com>
+2017-07-11  Claude Lepage <claude@bic.mni.mcgill.ca>
+
+    * trimmed down installation (no more blurred files and .gz files)
+
+2013-11-08  Claude Lepage <claude@bic.mni.mcgill.ca>
 
     * provided a tighter brain mask (volume and surface)
     * added tag points (transformed from ICBM 152)
